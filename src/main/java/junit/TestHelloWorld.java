@@ -24,16 +24,16 @@ public class TestHelloWorld {
 	
 	private String sendGet(String url) throws IOException{
 		URL realUrl = new URL(url);
-        URLConnection conn = realUrl.openConnection();
-        conn.setRequestProperty("accept", "*/*");
-        conn.setRequestProperty("connection", "Keep-Alive");
-        conn.connect();
-        BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-        String result = "";
-        String line;
-        while ((line = in .readLine()) != null) {  
-            result += line;  
-        }
-        return result;
+        	URLConnection conn = realUrl.openConnection();
+        	conn.setRequestProperty("accept", "*/*");
+        	conn.setRequestProperty("connection", "Keep-Alive");
+        	conn.connect();
+        	BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+        	String result = "";
+        	String line;
+        	while ((line = in .readLine()) != null) {  
+            	result += line;  
+        	}
+        	return result;
 	}
 }
