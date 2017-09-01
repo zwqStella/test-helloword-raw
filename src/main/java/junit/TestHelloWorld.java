@@ -32,7 +32,7 @@ public class TestHelloWorld {
         	String result = "";
         	String line;
         	while ((line = in .readLine()) != null) {  
-            	result += line;  
+            		result += line;  
         	}
         	return result;
 	}
