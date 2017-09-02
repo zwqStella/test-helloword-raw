@@ -15,7 +15,7 @@ public class TestHelloWorld {
 	@Test
 	public void test(){
 		try {
-			String result = sendGet("http://127.0.0.1:9080/test/hello");
+			String result = sendGet("http://127.0.0.1:8080/test/hello");
 			assertEquals(result, "hello world");
 		} catch (IOException e) {
 			e.printStackTrace();
