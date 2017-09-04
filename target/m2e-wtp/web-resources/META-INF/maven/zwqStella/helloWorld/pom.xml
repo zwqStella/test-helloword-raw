@@ -25,7 +25,8 @@
         <artifactId>httpunit</artifactId>  
         <version>1.7</version>  
         <scope>provided</scope>
-	</dependency> 
+	</dependency>
+
   </dependencies>
   <build>
     <finalName>test</finalName>
