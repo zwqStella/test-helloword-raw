@@ -1,4 +1,4 @@
-package helloWorld;
+package main.resources.helloWorld;
 
 import java.io.IOException;
 import java.io.PrintWriter;
