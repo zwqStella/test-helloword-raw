@@ -8,7 +8,7 @@ I deleted the target folder and put the war file just under the project folder. 
 
 A junit test case was added, but I decided to keep the old python file.
 
-Sept 5 edit: I've reajust the project under the instruction.
+Sept 5 edit: Adjust the project under the instruction.
 
  - - - 
  author: zwqStella
